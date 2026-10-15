@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For My HubbyBaby 🎀</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700&family=Parisienne&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- FLOATING DECORATIONS -->
+    <div class="floating-decorations" aria-hidden="true">
+        <span>♡</span>
+        <span>୨୧</span>
+        <span>✿</span>
+        <span>♡</span>
+        <span>✧</span>
+        <span>୨୧</span>
+        <span>♡</span>
+    </div>
+
+
+    <!-- =====================================
+         PAGE 1: WELCOME
+    ====================================== -->
+
+    <main class="welcome-screen page" id="welcomeScreen">
+
+        <div class="top-note">
+            MADE WITH LOVE, JUST FOR YOU ♡
+        </div>
+
+        <div class="scrapbook welcome-scrapbook">
+
+            <div class="scrapbook-content">
+
+                <span class="tiny-label">a little something for my favourite person</span>
+
+                <h1>
+                    for my<br>
+                    <span class="script-font">HubbyBaby</span>
+                    <span class="heart">♡</span>
+                </h1>
+
+                <p class="welcome-description">
+                    A tiny corner of the internet filled with
+                    our memories, my love, and a little birthday magic.
+                </p>
+
+                <div class="polaroid welcome-polaroid">
+
+                    <div class="photo-placeholder">
+                        <span>🎀</span>
+                        <p>our little world</p>
+                    </div>
+
+                    <p class="polaroid-caption">
+                        my favourite kind of forever ♡
+                    </p>
+
+                </div>
+
+                <button class="open-button" id="openButton">
+                    open your little surprise ♡
+                    <span>→</span>
+                </button>
+
+                <p class="little-note">
+                    made especially for you, with all my heart.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="footer-note">
+            A FRIENDSHIP THAT FEELS LIKE HOME ♡
+        </div>
+
+    </main>
+
+
+
+    <!-- =====================================
+         PAGE 2: THE LETTER
+    ====================================== -->
+
+    <section class="letter-screen page hidden" id="letterScreen">
+
+        <div class="section-top">
+            <span class="tiny-label">PAGE 02 · A LETTER FOR YOU</span>
+        </div>
+
+        <h1 class="section-title">
+            something from my heart
+            <span class="script-font">to yours ♡</span>
+        </h1>
+
+        <p class="section-description" id="envelopeHint">
+            tap the little envelope to open it 💌
+        </p>
+
+        <div class="envelope-container" id="envelopeContainer">
+
+            <div class="envelope" id="envelope">
+
+                <div class="envelope-back"></div>
+
+                <div class="letter-paper" id="letterPaper">
+
+                    <div class="letter-inner">
+
+                        <span class="letter-decoration">୨୧</span>
+
+                        <p class="letter-greeting">
+                            To my HubbyBaby,
+                        </p>
+
+                        <p>
+                            Happy birthday to one of the most special
+                            people in my life. ♡
+                        </p>
+
+                        <p>
+                            Sometimes I wonder how one person can become
+                            such a beautiful part of another person's world.
+                            And then I think of you, and somehow it makes
+                            perfect sense.
+                        </p>
+
+                        <p>
+                            Thank you for the laughs, the madness, the
+                            random conversations, the memories, and all
+                            those little moments that mean more to me than
+                            I can explain.
+                        </p>
+
+                        <p>
+                            You are not just someone I talk to. You are
+                            someone whose presence makes ordinary days
+                            feel a little more special.
+                        </p>
+
+                        <p>
+                            I hope this new chapter brings you happiness
+                            that stays, dreams that come true, people who
+                            genuinely love you, and countless reasons to
+                            smile.
+                        </p>
+
+                        <p>
+                            No matter how busy life gets or how much
+                            things change, I hope you always remember
+                            how precious you are to me.
+                        </p>
+
+                        <p>
+                            Here's to more memories, more laughter,
+                            more nonsense, and many more birthdays
+                            celebrated with that beautiful heart of yours.
+                        </p>
+
+                        <p class="letter-ending">
+                            Always cheering for you,<br>
+                            <span class="script-font">your person ♡</span>
+                        </p>
+
+                        <div class="letter-date">
+                            16th October ♡
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="envelope-flap"></div>
+
+                <div class="envelope-front"></div>
+
+                <button
+                    class="envelope-seal"
+                    id="envelopeSeal"
+                    aria-label="Open the envelope"
+                    type="button">
+                    ♡
+                </button>
+
+            </div>
+
+        </div>
+
+        <p class="envelope-bottom-note">
+            a little piece of my heart, just for you
+        </p>
+
+        <button class="continue-button hidden" id="continueButton">
+            let's look at our memories 📸
+            <span>→</span>
+        </button>
+
+    </section>
+
+
+
+    <!-- =====================================
+         PAGE 3: OUR MEMORIES
+    ====================================== -->
+
+    <section class="memories-screen page hidden" id="memoriesScreen">
+
+        <div class="section-top">
+            <span class="tiny-label">PAGE 03 · OUR LITTLE WORLD</span>
+        </div>
+
+        <header class="memories-header">
+
+            <span class="tiny-label">six little pieces of forever</span>
+
+            <h1 class="section-title">
+                memories with
+                <span class="script-font">my favourite human ♡</span>
+            </h1>
+
+            <p class="section-description">
+                Every picture has a story. Every story has a little piece of us.
+                Tap a picture to see it closer. 🎀
+            </p>
+
+        </header>
+
+
+        <div class="memories-grid">
+
+            <!-- MEMORY 1 -->
+            <article class="memory-card memory-card-one">
+
+                <div class="memory-tape"></div>
+
+                <div class="memory-photo">
+                    <img
+                        src="images/memory1.jpeg"
+                        alt="A favourite memory together"
+                        loading="lazy">
+                </div>
+
+                <p class="memory-caption">
+                    my favourite human 🎀
+                </p>
+
+                <span class="memory-number">01</span>
+
+            </article>
+
+
+            <!-- MEMORY 2 -->
+            <article class="memory-card memory-card-two">
+
+                <div class="memory-tape"></div>
+
+                <div class="memory-photo">
+                    <img
+                        src="images/memory2.jpeg"
+                        alt="A special friendship memory"
+                        loading="lazy">
+                </div>
+
+                <p class="memory-caption">
+                    partners in crime ♡
+                </p>
+
+                <span class="memory-number">02</span>
+
+            </article>
+
+
+            <!-- MEMORY 3 -->
+            <article class="memory-card memory-card-three">
+
+                <div class="memory-tape"></div>
+
+                <div class="memory-photo">
+                    <img
+                        src="images/memory3.jpeg"
+                        alt="A happy memory together"
+                        loading="lazy">
+                </div>
+
+                <p class="memory-caption">
+                    just us being us
+                </p>
+
+                <span class="memory-number">03</span>
+
+            </article>
+
+
+            <!-- MEMORY 4 -->
+            <article class="memory-card memory-card-four">
+
+                <div class="memory-tape"></div>
+
+                <div class="memory-photo">
+                    <img
+                        src="images/memory4.jpeg"
+                        alt="A memory that feels like home"
+                        loading="lazy">
+                </div>
+
+                <p class="memory-caption">
+                    my home away from home 🫂
+                </p>
+
+                <span class="memory-number">04</span>
+
+            </article>
+
+
+            <!-- MEMORY 5 -->
+            <article class="memory-card memory-card-five">
+
+                <div class="memory-tape"></div>
+
+                <div class="memory-photo">
+                    <img
+                        src="images/memory5.jpeg"
+                        alt="A funny friendship memory"
+                        loading="lazy">
+                </div>
+
+                <p class="memory-caption">
+                    chaos looks good on us 😂
+                </p>
+
+                <span class="memory-number">05</span>
+
+            </article>
+
+
+            <!-- MEMORY 6 -->
+            <article class="memory-card memory-card-six">
+
+                <div class="memory-tape"></div>
+
+                <div class="memory-photo">
+                    <img
+                        src="images/memory6.jpeg"
+                        alt="A memory to treasure forever"
+                        loading="lazy">
+                </div>
+
+                <p class="memory-caption">
+                    always my person 💗
+                </p>
+
+                <span class="memory-number">06</span>
+
+            </article>
+
+        </div>
+
+
+        <div class="memories-ending">
+
+            <p class="script-font">
+                and these are only a few of my favourite moments ♡
+            </p>
+
+            <button class="continue-button" id="nextMemoriesButton">
+                okay, one more thing... 💌
+                <span>→</span>
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================
+         PHOTO VIEWER
+    ====================================== -->
+
+    <div
+        class="photo-viewer hidden"
+        id="photoViewer"
+        role="dialog"
+        aria-modal="true"
+        aria-label="View friendship memory">
+
+        <button
+            class="photo-viewer-close"
+            id="closePhotoViewer"
+            aria-label="Close photo">
+            ×
+        </button>
+
+        <div class="photo-viewer-content">
+
+            <img
+                id="expandedPhoto"
+                src=""
+                alt="Expanded friendship memory">
+
+            <p id="expandedCaption"></p>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================
+         PAGE 4: OPEN WHEN YOU NEED ME
+    ====================================== -->
+
+    <section class="letters-screen page hidden" id="lettersScreen">
+
+        <div class="section-top">
+            <span class="tiny-label">PAGE 04 · A LITTLE BOX OF LOVE</span>
+        </div>
+
+        <header class="memories-header">
+
+            <span class="tiny-label">for the days you need a reminder</span>
+
+            <h1 class="section-title">
+                Open when you
+                <span class="script-font">need me 💌</span>
+            </h1>
+
+            <p class="section-description">
+                Different days, different feelings.
+                But here's a little reminder that you are never
+                short of someone who cares about you. ♡
+            </p>
+
+        </header>
+
+
+        <div class="open-when-grid">
+
+            <article class="open-when-card" data-message="miss-you">
+
+                <span class="open-when-icon">💌</span>
+
+                <h2>Open when you miss me</h2>
+
+                <p>psst... come here ♡</p>
+
+                <button class="open-letter-button" type="button">
+                    Open this ♡
+                </button>
+
+            </article>
+
+
+            <article class="open-when-card" data-message="sad">
+
+                <span class="open-when-icon">🫂</span>
+
+                <h2>Open when you're sad</h2>
+
+                <p>Let me remind you something.</p>
+
+                <button class="open-letter-button" type="button">
+                    Open this ♡
+                </button>
+
+            </article>
+
+
+            <article class="open-when-card" data-message="special">
+
+                <span class="open-when-icon">🎀</span>
+
+                <h2>Open when you forget your worth</h2>
+
+                <p>You need to hear this.</p>
+
+                <button class="open-letter-button" type="button">
+                    Open this ♡
+                </button>
+
+            </article>
+
+
+            <article class="open-when-card" data-message="hug">
+
+                <span class="open-when-icon">💕</span>
+
+                <h2>Open when you need a hug</h2>
+
+                <p>Imagine me squeezing you.</p>
+
+                <button class="open-letter-button" type="button">
+                    Open this ♡
+                </button>
+
+            </article>
+
+        </div>
+
+
+        <div class="letters-ending">
+
+            <p class="script-font">
+                wherever life takes us, a little piece of my heart
+                will always cheer for you ♡
+            </p>
+
+            <button class="continue-button" id="finalSurpriseButton">
+                one last surprise for you 🎁
+                <span>→</span>
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================
+         INTERACTIVE MESSAGE POPUP
+    ====================================== -->
+
+    <div
+        class="message-popup hidden"
+        id="messagePopup"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="popupTitle">
+
+        <div class="message-popup-paper">
+
+            <button
+                class="message-close"
+                id="closeMessagePopup"
+                aria-label="Close letter">
+                ×
+            </button>
+
+            <span class="tiny-label">A NOTE FROM YOUR PERSON ♡</span>
+
+            <div class="popup-decoration">୨୧</div>
+
+            <h2 id="popupTitle">For you 💗</h2>
+
+            <p id="popupMessage"></p>
+
+            <div class="message-decoration">
+                with love, always ♡
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================
+         PAGE 5: FINAL BIRTHDAY SURPRISE
+    ====================================== -->
+
+    <section class="final-screen page hidden" id="finalScreen">
+
+        <div class="final-sparkles" aria-hidden="true">
+            ✧　♡　✦　୨୧　✦　♡　✧
+        </div>
+
+        <div class="final-card">
+
+            <span class="tiny-label">PAGE 05 · THE LAST LITTLE SURPRISE</span>
+
+            <div class="birthday-crown">👑</div>
+
+            <p class="script-font final-intro">
+                today's all about you...
+            </p>
+
+            <h1>
+                Happy Birthday,
+                <span class="script-font">HubbyBaby! 🎂</span>
+            </h1>
+
+            <p class="final-description">
+                If I could wrap up all the love, happiness, and
+                beautiful things I wish for you, this little page
+                still wouldn't be big enough.
+            </p>
+
+
+            <div class="birthday-cake" id="birthdayCake">
+
+                <div class="cake-candles">
+
+                    <div class="candle">
+                        <span class="flame"></span>
+                    </div>
+
+                    <div class="candle">
+                        <span class="flame"></span>
+                    </div>
+
+                    <div class="candle">
+                        <span class="flame"></span>
+                    </div>
+
+                </div>
+
+                <div class="cake-top"></div>
+                <div class="cake-middle"></div>
+                <div class="cake-bottom"></div>
+
+                <div class="cake-plate"></div>
+
+            </div>
+
+
+            <p class="cake-instruction" id="cakeInstruction">
+                Make a wish, birthday baby. ✨
+            </p>
+
+            <button class="continue-button cake-button" id="wishButton">
+                blow the candles ♡
+            </button>
+
+
+            <div class="final-message hidden" id="finalMessage">
+
+                <h2 class="script-font">
+                    One wish for you... a thousand beautiful tomorrows. ♡
+                </h2>
+
+                <p>
+                    May you always find reasons to laugh until your
+                    stomach hurts, people who make you feel understood,
+                    and moments that remind you how beautiful life can be.
+                </p>
+
+                <p>
+                    Thank you for being you. Thank you for being part
+                    of my story. And thank you for giving me memories
+                    that I will always keep close to my heart.
+                </p>
+
+                <p>
+                    Whatever this next chapter brings, I hope it brings
+                    you more happiness than you can imagine.
+                </p>
+
+                <p class="script-font final-signature">
+                    Happy birthday, my HubbyBaby. ♡
+                </p>
+
+                <div class="final-hearts">♡ ୨୧ ♡</div>
+
+            </div>
+
+            <p class="final-footer">
+                MADE WITH ALL MY HEART · JUST FOR YOU 🎀
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
